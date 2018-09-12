@@ -1,0 +1,21 @@
+body{ 
+    font-size: 16px; 
+}    
+div{
+    border: 2px solid black;
+}
+p.t1{ 
+    font-size: 1em; 
+}
+
+p.t2{
+     font-size: 1.5em;
+}           
+
+p.t3{ 
+    font-size: 3em; 
+}
+
+p.t4{
+     font-size: 5em; 
+}
