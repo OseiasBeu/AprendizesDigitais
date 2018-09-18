@@ -1,65 +1,70 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 15px;
 }
 
 #pai{
-    /* width: 50%;*/
+    width: 100vw;
     height: 100vh; 
     background-color: grey;
-    text-align: center;
+    padding: 5px;
+}
+#pai > *{
+    border: 1px dashed black;
+}
+
+#filho1> *{
+    border:1px dashed black;
+}
+
+#filho2> *{
+    border:1px dashed black;
 }
 
 #filho1{
-    border: 1px solid black;
-    height: 45vh;
+    height: 80%;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    margin: 10px;
-    padding: 5px;
-}
-#headerfilho{
-    height: 33%;
-    margin: 0px;
-}
-article{
-    border: 1px dashed black;  
-    border-radius: 15px;
-    height: 33%;
-}
- #filho2 footer{
-    height: 33%;
-    border-radius: 15px;
-}
-
-header{
-    border: 1px dashed black; 
-    border-radius: 15px;
-    height: 20vh; 
-    margin: 10px;
-}
-
-footer{
-    border: 1px dashed black;
-}
-
-.navAside{
-    border: 1px dashed black;
-    border-radius: 15px;
-    width: 33%;
-    margin: 5px;
-}
-
-#rodape{
-    border: 1px dashed black; 
-    border-radius: 15px;
-    height: 20vh; 
-    margin: 10px;
+    justify-content: space-between;   
+    border: none;
 }
 
 #filho2{
-    border: 1px solid black;
-    padding: 5px;
     width: 100%;
+    margin-left:3px;
+    margin-right:3px;
+    border: none;
+}
+
+#filho3{
+    margin-top: 3px;
+}
+
+
+#neto{  
+    height: 79%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+footer{
+    height: 10%;
+}
+
+header{
+    height: 9%;  
+    margin-bottom: 3px;
+}
+
+.navAside{
+    border-radius: 15px;
+    width: 33%;
+    
+}
+
+#rodape{ 
+    height: 20%; 
 }
