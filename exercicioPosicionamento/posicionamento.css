@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px dotted black;
+    text-align: center;
+}
+
+#sec1 :not(p):nth-child(1){
+    background-color: green;
+}
+
+#sec1 :nth-child(2){
+    background-color: yellow;
+}
+
+#sec2 :not(p):nth-child(1){
+    background-color: red;
+}
+
+#sec2 :nth-child(2){
+    background-color: orange;
+}
